@@ -2,13 +2,13 @@ export const projects = [
   {
     nama: 'NgajiQuran',
     deskripsi: 'Indonesian Quran web-app',
-    gambar: 'public/projects/ngajiquran.png',
+    gambar: '../../public/projects/ngajiquran.png',
     url: 'https://ngajiquran.vercel.app',
   },
   {
     nama: 'AskGemini',
     deskripsi: 'Google Gemini Chatbot',
-    gambar: 'public/projects/vuechat.png',
+    gambar: '../../public/projects/vuechat.png',
     url: 'https://chatogemini.vercel.app',
   },
 ]
@@ -18,18 +18,18 @@ export const certificates = {
     {
       nama: 'LKS Kab. Pacitan',
       deskripsi: '1st place',
-      gambar: 'public/certificates/lks-kab.jpg',
+      gambar: '../../public/certificates/lks-kab.jpg',
     },
     {
       nama: 'LKS-SMK JATIM 32',
       deskripsi: 'Participant',
-      gambar: 'public/certificates/lks-prov.jpg',
+      gambar: '../../public/certificates/lks-prov.jpg',
     },
   ],
   language: [
     {
       nama: 'TOEIC',
-      gambar: 'public/certificates/toeic.jpg',
+      gambar: '../../public/certificates/toeic.jpg',
     },
   ],
 }
