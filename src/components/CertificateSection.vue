@@ -17,7 +17,7 @@ watch(type, (newType) => {
 
 <template>
   <section class="w-full py-28 px-5 md:py-56 md:px-32 bg-blue-900 text-white">
-    <h2 class="text-4xl font-league font-bold md:text-[4em] mb-10 md:mb-32 text-center">
+    <h2 class="text-4xl font-league font-bold md:text-[4em] mb-10 md:mb-20 text-center">
       Certificates
     </h2>
     <div
@@ -37,6 +37,7 @@ watch(type, (newType) => {
         :nama="item.nama"
         :img="item.gambar"
         :deskripsi="item.deskripsi"
+        :url="item.url"
       />
     </div>
   </section>

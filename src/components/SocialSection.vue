@@ -4,7 +4,7 @@ const url = 'https://skillicons.dev/icons?i='
 </script>
 
 <template>
-  <section class="w-full py-32 px-5 md:px-32">
+  <section class="w-full py-56 px-5 md:px-32">
     <h2 class="text-4xl font-league font-bold md:text-[4em] mb-14 text-center text-slate-800">
       Connect with <u>me</u>
     </h2>
