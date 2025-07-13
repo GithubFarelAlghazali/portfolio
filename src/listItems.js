@@ -3,13 +3,19 @@ export const projects = [
     nama: 'NgajiQuran',
     deskripsi: 'Indonesian Quran web-app',
     gambar: 'projects/ngajiquran.png',
-    url: 'https://ngajiquran.vercel.app',
+    url: {
+      github: 'https://github.com/GithubFarelAlghazali/webquran-react',
+      web: 'https://ngajiquran.vercel.app',
+    },
   },
   {
-    nama: 'AskGemini',
+    nama: 'Chat to Gemini',
     deskripsi: 'Google Gemini Chatbot',
     gambar: 'projects/vuechat.png',
-    url: 'https://chatogemini.vercel.app',
+    url: {
+      github: 'https://github.com/GithubFarelAlghazali/gemini-chatapp',
+      web: 'https://chattogemini.vercel.app',
+    },
   },
 ]
 
@@ -37,7 +43,7 @@ export const certificates = {
   ],
 }
 
-export const skills = ['css', 'js', 'vue', 'react', 'tailwind', 'aws']
+export const skills = ['CSS', 'JS', 'Vue', 'React', 'Tailwind', 'AWS', 'Next', 'TS']
 
 export const socials = [
   {

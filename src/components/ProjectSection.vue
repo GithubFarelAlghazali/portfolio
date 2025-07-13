@@ -1,5 +1,5 @@
 <script setup>
-import CardItem from './CardItem.vue'
+import ProjectItem from './ProjectItem.vue'
 import { projects } from '../listItems'
 </script>
 
@@ -9,7 +9,7 @@ import { projects } from '../listItems'
       Projects
     </h2>
     <div class="my-16 flex justify-center w-full flex-wrap md:flex-nowrap px-5 gap-5">
-      <CardItem
+      <ProjectItem
         v-for="(project, index) in projects"
         :key="index"
         :nama="project.nama"

@@ -13,11 +13,11 @@ const url = 'https://skillicons.dev/icons?i='
         v-for="(img, index) in skills"
         :key="index"
         class="group *:transition-all *:duration-100"
-        :title="img.toUpperCase()"
+        :title="img"
       >
         <img
-          :src="url + img"
-          :alt="img.toUpperCase()"
+          :src="url + img.toLowerCase()"
+          :alt="img"
           class="group-hover:-translate-y-3 group-hover:drop-shadow-xl"
         />
       </li>
