@@ -2,7 +2,15 @@
   <section
     class="bg-blue-900 w-full text-white flex py-20 px-5 md:py-56 md:px-32 flex-col gap-10 md:flex-row"
   >
-    <h2 class="text-4xl font-league font-bold md:text-[4em] md:w-full">
+    <h2
+      class="text-4xl font-league font-bold md:text-[4em] md:w-full"
+      v-split-text="{
+        delay: 100,
+        duration: 0.6,
+        ease: 'power3.out',
+        splitType: 'chars',
+      }"
+    >
       About <span class="underline">me</span>
     </h2>
     <p class="md:text-xl md:w-full">

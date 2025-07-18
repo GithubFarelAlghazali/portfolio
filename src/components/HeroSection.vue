@@ -31,7 +31,17 @@ onMounted(async () => {
     <article
       class="absolute right-0 left-0 md:right-28 md:left-28 bottom-0 top-0 flex flex-col md:justify-center pt-32 md:pt-0 gap-0 px-5 md:px-10 md:gap-48"
     >
-      <h2 class="text-4xl md:text-[3em] text-blue-900 font-bold w-fit">Hi, I am Farel</h2>
+      <h2
+        class="text-4xl md:text-[3em] text-blue-900 font-bold w-fit"
+        v-split-text="{
+          delay: 100,
+          duration: 0.6,
+          ease: 'power3.out',
+          splitType: 'chars',
+        }"
+      >
+        Hi, I am Farel
+      </h2>
 
       <h2
         class="bg-blue-900 text-white md:p-5 font-semibold md:text-xl w-fit md:rounded-3xl md:self-end text-sm rounded-xl p-2"
