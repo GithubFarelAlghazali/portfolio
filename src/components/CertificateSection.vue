@@ -16,15 +16,15 @@ watch(type, (newType) => {
 </script>
 
 <template>
-  <section class="w-full py-28 px-5 md:py-56 md:px-32 bg-blue-900 text-white">
+  <section class="w-full py-28 px-5 md:py-56 md:px-32 bg-red-900 text-white">
     <h2 class="text-4xl font-league font-bold md:text-[4em] mb-10 md:mb-20 text-center">
       Certificates
     </h2>
     <div
       class="w-fit rounded-xl shadow-xl mx-auto flex justify-center overflow-hidden font-league font-bold md:text-xl md:*:p-3 *:p-2 *:cursor-pointer *:transition-all *:duration-100"
     >
-      <label :class="type == 'competition' ? 'active' : ''" for="com">Competition </label>
-      <label :class="type != 'competition' ? 'active' : ''" for="lang"> Languange </label>
+      <label :class="type == 'competition' ? 'active' : 'bg-red-950'" for="com">Competition </label>
+      <label :class="type != 'competition' ? 'active' : 'bg-red-950'" for="lang"> Languange </label>
     </div>
     <div class="invisible">
       <input type="radio" id="com" value="competition" v-model="type" />

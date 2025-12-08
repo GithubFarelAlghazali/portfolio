@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .active {
-  @apply bg-white text-blue-900;
+  @apply bg-white text-red-900;
 }
