@@ -43,7 +43,18 @@ export const certificates = {
   ],
 }
 
-export const skills = ['CSS', 'JS', 'Vue', 'React', 'Tailwind', 'AWS', 'Next', 'TS']
+export const skills = [
+  'CSS',
+  'JS',
+  'Vue',
+  'React',
+  'Tailwind',
+  'AWS',
+  'Next',
+  'TS',
+  'Java',
+  'Firebase',
+]
 
 export const socials = [
   {

@@ -12,14 +12,16 @@ const url = 'https://skillicons.dev/icons?i='
       <li
         v-for="(img, index) in skills"
         :key="index"
-        class="group *:transition-all *:duration-100"
-        :title="img"
+        class="group *:transition-all *:duration-100 cursor-pointer"
       >
         <img
           :src="url + img.toLowerCase()"
           :alt="img"
           class="group-hover:-translate-y-3 group-hover:drop-shadow-xl"
         />
+        <h3 class="text-center group-hover:visible invisible group-hover:-translate-y-3">
+          {{ img }}
+        </h3>
       </li>
     </ul>
   </section>
